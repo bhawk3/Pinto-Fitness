@@ -1,6 +1,7 @@
 import "./display.css";
 
 //I will need to pass data from user down through props
+//I should probably generated the cards more dynamically
 
 export default function Display() {
 	return (

@@ -1,0 +1,367 @@
+{
+	"muscle_groups": [
+		{
+			"group": "Chest",
+			"exercises": [
+				{
+					"id": 1,
+					"name": "Barbell Bench Press",
+					"description": "Press barbell from chest while lying flat on a bench.",
+					"sets": "3-5",
+					"reps": "5-10",
+					"targets": ["pectoralis major", "triceps", "anterior deltoids"]
+				},
+				{
+					"id": 2,
+					"name": "Incline Dumbbell Press",
+					"description": "Press dumbbells on an incline bench to target upper chest.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["upper chest", "shoulders", "triceps"]
+				},
+				{
+					"id": 3,
+					"name": "Push-Up",
+					"description": "Bodyweight press from the floor.",
+					"sets": "3-4",
+					"reps": "10-20",
+					"targets": ["chest", "triceps", "core"]
+				},
+				{
+					"id": 4,
+					"name": "Chest Fly (Dumbbell)",
+					"description": "Wide arc movement to stretch and contract chest.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["pectoralis major"]
+				},
+				{
+					"id": 5,
+					"name": "Cable Fly",
+					"description": "Controlled fly using cables for constant tension.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["chest"]
+				},
+				{
+					"id": 6,
+					"name": "Decline Bench Press",
+					"description": "Press on a decline bench to target lower chest.",
+					"sets": "3-4",
+					"reps": "6-10",
+					"targets": ["lower chest", "triceps"]
+				},
+				{
+					"id": 7,
+					"name": "Dips (Chest Focused)",
+					"description": "Lean forward while dipping to hit chest.",
+					"sets": "3-4",
+					"reps": "8-15",
+					"targets": ["chest", "triceps"]
+				},
+				{
+					"id": 8,
+					"name": "Machine Chest Press",
+					"description": "Guided press movement on machine.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["chest", "triceps"]
+				}
+			]
+		},
+		{
+			"group": "Back",
+			"exercises": [
+				{
+					"id": 9,
+					"name": "Pull-Up",
+					"description": "Pull body up to bar using upper body.",
+					"sets": "3-4",
+					"reps": "6-12",
+					"targets": ["lats", "biceps"]
+				},
+				{
+					"id": 10,
+					"name": "Lat Pulldown",
+					"description": "Pull bar down to chest on machine.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["lats", "biceps"]
+				},
+				{
+					"id": 11,
+					"name": "Barbell Row",
+					"description": "Row barbell toward torso.",
+					"sets": "3-5",
+					"reps": "6-10",
+					"targets": ["lats", "middle back"]
+				},
+				{
+					"id": 12,
+					"name": "Seated Cable Row",
+					"description": "Row cable handle to torso.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["middle back", "lats"]
+				},
+				{
+					"id": 13,
+					"name": "Deadlift",
+					"description": "Lift barbell from ground to standing.",
+					"sets": "3-5",
+					"reps": "3-6",
+					"targets": ["lower back", "glutes", "hamstrings"]
+				},
+				{
+					"id": 14,
+					"name": "T-Bar Row",
+					"description": "Row bar from fixed point.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["mid-back"]
+				},
+				{
+					"id": 15,
+					"name": "Face Pull",
+					"description": "Pull rope toward face.",
+					"sets": "3-4",
+					"reps": "12-15",
+					"targets": ["rear delts", "upper back"]
+				},
+				{
+					"id": 16,
+					"name": "Superman Hold",
+					"description": "Hold extended position face down.",
+					"sets": "3",
+					"reps": "20-40 sec",
+					"targets": ["lower back"]
+				}
+			]
+		},
+		{
+			"group": "Shoulders",
+			"exercises": [
+				{
+					"id": 17,
+					"name": "Overhead Press",
+					"description": "Press bar overhead from shoulders.",
+					"sets": "3-5",
+					"reps": "5-10",
+					"targets": ["deltoids", "triceps"]
+				},
+				{
+					"id": 18,
+					"name": "Lateral Raise",
+					"description": "Raise dumbbells to sides.",
+					"sets": "3-4",
+					"reps": "12-15",
+					"targets": ["lateral delts"]
+				},
+				{
+					"id": 19,
+					"name": "Front Raise",
+					"description": "Lift weights forward.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["front delts"]
+				},
+				{
+					"id": 20,
+					"name": "Rear Delt Fly",
+					"description": "Fly motion bent over.",
+					"sets": "3-4",
+					"reps": "12-15",
+					"targets": ["rear delts"]
+				},
+				{
+					"id": 21,
+					"name": "Arnold Press",
+					"description": "Rotational press variation.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["deltoids"]
+				},
+				{
+					"id": 22,
+					"name": "Upright Row",
+					"description": "Pull bar upward close to body.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["traps", "shoulders"]
+				},
+				{
+					"id": 23,
+					"name": "Cable Lateral Raise",
+					"description": "Lateral raise using cable tension.",
+					"sets": "3-4",
+					"reps": "12-15",
+					"targets": ["lateral delts"]
+				},
+				{
+					"id": 24,
+					"name": "Handstand Push-Up",
+					"description": "Vertical bodyweight press.",
+					"sets": "3-4",
+					"reps": "5-10",
+					"targets": ["shoulders", "triceps"]
+				}
+			]
+		},
+		{
+			"group": "Arms",
+			"exercises": [
+				{
+					"id": 25,
+					"name": "Barbell Curl",
+					"description": "Curl barbell upward.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["biceps"]
+				},
+				{
+					"id": 26,
+					"name": "Hammer Curl",
+					"description": "Neutral grip curl.",
+					"sets": "3-4",
+					"reps": "10-12",
+					"targets": ["biceps", "brachialis"]
+				},
+				{
+					"id": 27,
+					"name": "Tricep Pushdown",
+					"description": "Push cable downward.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["triceps"]
+				},
+				{
+					"id": 28,
+					"name": "Skull Crushers",
+					"description": "Lower bar to forehead.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["triceps"]
+				},
+				{
+					"id": 29,
+					"name": "Concentration Curl",
+					"description": "Seated isolated curl.",
+					"sets": "3",
+					"reps": "10-12",
+					"targets": ["biceps"]
+				},
+				{
+					"id": 30,
+					"name": "Overhead Tricep Extension",
+					"description": "Extend arms overhead.",
+					"sets": "3-4",
+					"reps": "10-12",
+					"targets": ["triceps"]
+				}
+			]
+		},
+		{
+			"group": "Legs",
+			"exercises": [
+				{
+					"id": 31,
+					"name": "Squat",
+					"description": "Lower body with barbell.",
+					"sets": "3-5",
+					"reps": "5-10",
+					"targets": ["quads", "glutes"]
+				},
+				{
+					"id": 32,
+					"name": "Leg Press",
+					"description": "Push platform with legs.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["quads", "glutes"]
+				},
+				{
+					"id": 33,
+					"name": "Lunges",
+					"description": "Step forward and lower.",
+					"sets": "3-4",
+					"reps": "10-12 each leg",
+					"targets": ["quads", "glutes"]
+				},
+				{
+					"id": 34,
+					"name": "Romanian Deadlift",
+					"description": "Hip hinge movement.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["hamstrings", "glutes"]
+				},
+				{
+					"id": 35,
+					"name": "Leg Curl",
+					"description": "Curl weight with legs.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["hamstrings"]
+				},
+				{
+					"id": 36,
+					"name": "Leg Extension",
+					"description": "Extend legs on machine.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["quads"]
+				}
+			]
+		},
+		{
+			"group": "Glutes",
+			"exercises": [
+				{
+					"id": 37,
+					"name": "Hip Thrust",
+					"description": "Drive hips upward.",
+					"sets": "3-4",
+					"reps": "8-12",
+					"targets": ["glutes"]
+				},
+				{
+					"id": 38,
+					"name": "Glute Bridge",
+					"description": "Lift hips from floor.",
+					"sets": "3-4",
+					"reps": "12-15",
+					"targets": ["glutes"]
+				}
+			]
+		},
+		{
+			"group": "Core",
+			"exercises": [
+				{
+					"id": 39,
+					"name": "Plank",
+					"description": "Hold straight body position.",
+					"sets": "3",
+					"reps": "30-60 sec",
+					"targets": ["core"]
+				},
+				{
+					"id": 40,
+					"name": "Crunch",
+					"description": "Lift upper torso.",
+					"sets": "3-4",
+					"reps": "15-20",
+					"targets": ["abs"]
+				},
+				{
+					"id": 41,
+					"name": "Leg Raise",
+					"description": "Raise legs while lying.",
+					"sets": "3-4",
+					"reps": "10-15",
+					"targets": ["lower abs"]
+				}
+			]
+		}
+	]
+}

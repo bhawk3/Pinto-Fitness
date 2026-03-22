@@ -1,7 +1,10 @@
 import "./display.css";
+import workoutData from "/workoutData.json";
 
 //I will need to pass data from user down through props
 //I should probably generated the cards more dynamically
+
+//h3 on first card is only targeting the group of "chest" but not the individual exercise
 
 export default function Display() {
 	return (
@@ -9,27 +12,28 @@ export default function Display() {
 			<h2>Here are three exercises for this muscle group</h2>
 			<div className="card-container">
 				<div className="card">
-					<img src="#" alt="" width="100"></img>
-					<br />
-					<h3>NAME OF EXERCISE</h3>
+					<h3>{workoutData.muscle_groups.group}</h3>
 					<br />
 					<p>Quick description/instructions</p>
+					<br />
+					<p>Do: xyz Sets with xyz reps</p>
 				</div>
 				<br />
 				<div className="card">
-					<img src="#" alt="" width="100"></img>
-					<br />
 					<h3>NAME OF EXERCISE</h3>
 					<br />
 					<p>Quick description/instructions</p>
-				</div>{" "}
+					<br />
+					<p>Do: xyz Sets with xyz reps</p>
+				</div>
 				<br />
 				<div className="card">
-					<img src="#" alt="" width="100"></img>
 					<br />
 					<h3>NAME OF EXERCISE</h3>
 					<br />
 					<p>Quick description/instructions</p>
+					<br />
+					<p>Do: xyz Sets with xyz reps</p>
 				</div>
 			</div>
 		</>

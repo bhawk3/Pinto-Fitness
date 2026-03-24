@@ -12,11 +12,13 @@ export default function Display() {
 			<h2>Here are three exercises for this muscle group</h2>
 			<div className="card-container">
 				<div className="card">
-					<h3>{workoutData.muscle_groups.group}</h3>
+					<h3>{workoutData.muscle_groups[0].exercises[0].name}</h3>
 					<br />
-					<p>Quick description/instructions</p>
+					<p>{workoutData.muscle_groups[0].exercises[0].description}</p>
 					<br />
-					<p>Do: xyz Sets with xyz reps</p>
+					<p>
+						Do: {workoutData.muscle_groups[0].exercises[0].sets} Sets with {workoutData.muscle_groups[0].exercises[0].reps} reps
+					</p>
 				</div>
 				<br />
 				<div className="card">

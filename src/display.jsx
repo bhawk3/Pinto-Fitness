@@ -1,5 +1,5 @@
 import "./display.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 //import { useState, useEffect } from "react";
 
@@ -11,12 +11,13 @@ import { useState } from "react";
 export default function Display({ data, filter }) {
 	//console.log("Display props.filter:", props.filter);
 	//console.log("Display props.data:", props.data);
-	const [randomLift] = useState(() => {
-		const selectedGroup = data.muscle_groups.find((g) => g.group.toLowerCase() === filter.toLowerCase()) || data.muscle_groups[0];
+	const [randomLift, setRandomLift] = useState([]);
 
+	useEffect(() => {
+		const selectedGroup = data.muscle_groups.find((g) => g.group.toLowerCase() === filter.toLowerCase()) || data.muscle_groups[0];
 		const exercises = selectedGroup.exercises || [];
-		return [...exercises].sort(() => Math.random() - 0.5).slice(0, 3);
-	});
+		setRandomLift([...exercises].sort(() => Math.random() - 0.5).slice(0, 3));
+	}, [data, filter]);
 
 	return (
 		<>
@@ -26,6 +27,8 @@ export default function Display({ data, filter }) {
 				{randomLift.map((workout) => (
 					<div className="card" key={workout.id}>
 						<h3>{workout.name}</h3>
+						<br />
+						<p>{workout.group}</p>
 						<br />
 						<p>{workout.description}</p>
 						<br />
